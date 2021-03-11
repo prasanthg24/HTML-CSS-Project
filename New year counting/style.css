@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+ body{  
+background-image: url('https://images.unsplash.com/photo-1549069599-09f088bf0a17?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+color: ivory;
+font-family: 'Barlow Condensed', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0;
+overflow: hidden;
+ }
+
+ /*step 4* Dark over lay for bg image*/
+ body::after{
+     content:'';
+     position: absolute;
+     left:0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background-color:rgba(85, 9, 9, 0.5);
+ }
+
+ body * {
+        z-index: 1;
+ }
+
+ h1{
+     font-size:50px;
+     margin:-80px 0 40px 5px ;
+ }
+
+ .year{
+     font-size: 150px;
+     z-index: -1;
+     opacity: 0.5;
+     position: absolute;
+     bottom: 5%;
+     left: 60%;
+     transform: translateX(-5%);
+ }
+ .countdown{
+    /*display:flex;*/
+    display: none;
+    transform:scale(2);
+    
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+ .time h2{
+     margin: 0 0 5px;
+     
+ }
+
+@media(max-width:500px){
+    h1{font-size: 45px;}
+    .time{margin: 5px;}
+    .time h2{font-size: 12px; margin: 0;}
+    .time small{font-size: 10px; }
+    
+}
+
