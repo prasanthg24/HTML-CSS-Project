@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px 0;
+    background: lightgreen;
+}
+.grid{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{
+    position: relative;
+    transition: all.4s linear;
+    transform-style: preserve-3d;
+    margin: 5px;
+
+}
+.card
+.front
+.back
+{
+    height: 150px;
+    width: 150px;
+}

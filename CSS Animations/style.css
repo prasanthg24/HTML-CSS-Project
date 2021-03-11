@@ -1,0 +1,70 @@
+/*  Text Shadow
+p{
+    text-shadow: 2px 6px 2px rgb(247, 90, 63);
+}*/
+
+/* Box Shadow
+
+#para{
+
+    color:blue;
+    border: 1px solid white;
+    padding: 20px;
+    box-shadow: 2px  5px 4px grey;
+    
+
+}
+
+#para:hover{
+    color :orangered;
+    border: 1px solid rgb(214, 191, 191);
+    padding: 30px;
+    box-shadow: 2px  5px 4px green;
+    width: 150px;
+}*/
+
+/*Text Effect
+div p{
+    Clip Effect
+    white-space: nowrap;
+    width: 250px;
+    border: 2px solid tomato;
+    height: 65px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+
+
+
+}
+
+div p:hover{
+    overflow: visible;
+}*/
+/*WEB FONT*/
+
+/*@font-face
+{
+    font-family:'myfont';
+    src: url("https://fonts.gstatic.ttf");
+
+}
+
+p{
+    font-family:'myfont';
+}*/
+
+/*Word Wrap Properties
+p{
+    width: 10em;
+    padding: 10px;
+    border: 3px solid blueviolet;
+    overflow: hidden;
+    word-wrap: break-word; 
+    word-break: keep-all;
+    
+}*/
+
+#pp
+{
+writing-mode: vertical-rl;
+}
